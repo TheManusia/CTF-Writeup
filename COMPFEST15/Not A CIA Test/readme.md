@@ -4,7 +4,7 @@
 ## Information
 **Category:** | **Points:** | **Writeup Author**
 --- | --- | ---
-OSINT | 100 | notnot
+OSINT | 100 | themanusia
 
 **Description:** 
 

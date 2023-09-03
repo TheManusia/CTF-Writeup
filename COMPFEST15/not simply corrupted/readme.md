@@ -4,7 +4,7 @@
 ## Information
 **Category:** | **Points:** | **Writeup Author**
 --- | --- | ---
-Forensics | 316 | notnot
+Forensics | 316 | themanusia
 
 **Description:** 
 

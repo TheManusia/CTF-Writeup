@@ -4,7 +4,7 @@
 ## Information
 **Category:** | **Points:** | **Writeup Author**
 --- | --- | ---
-Misc | 25 | -
+Misc | 25 | themanusia
 
 **Description:** 
 

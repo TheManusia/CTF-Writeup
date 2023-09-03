@@ -4,7 +4,7 @@
 ## Information
 **Category:** | **Points:** | **Writeup Author**
 --- | --- | ---
-Misc | 154 | kilometer
+Misc | 154 | themanusia
 
 **Description:** 
 

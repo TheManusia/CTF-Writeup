@@ -4,7 +4,7 @@
 ## Information
 **Category:** | **Points:** | **Writeup Author**
 --- | --- | ---
-Misc | 316 | k3ng
+Misc | 316 | themanusia
 
 **Description:** 
 

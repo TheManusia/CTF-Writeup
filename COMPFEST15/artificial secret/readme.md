@@ -4,7 +4,7 @@
 ## Information
 **Category:** | **Points:** | **Writeup Author**
 --- | --- | ---
-Misc | 356 | fahrul
+Misc | 356 | themanusia
 
 **Description:** 
 
